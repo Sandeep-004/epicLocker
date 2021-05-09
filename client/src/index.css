@@ -1,0 +1,1098 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Raleway', sans-serif;} 
+
+/* First component CSS */
+.upper_div {
+  background-image: url("./Images/img3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 4px;
+  filter: drop-shadow(2px 2px 2px #333);
+  width: 95vw;
+  height: 95vh;
+  overflow: hidden;
+  position: relative;
+  top: 1vw;
+  left: 2vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.first-col {
+  background-color: #fd5068;
+  width: 100%;
+  height: 8vh;
+}
+
+.btn-login {
+  border-radius: 4px;
+  border: none;
+  font-size: 1vw;
+  font-weight: 600;
+  padding: 8px;
+  position: relative;
+  float: right;
+  right: 14px !important;
+  top: 10px;
+  color: #fd5068;;
+  width: 7vw;
+}
+
+.btn-login:hover {
+  background-color: #fd5068;
+  border: 2px solid #fff;
+  color: #fff; 
+}
+.btn-ResLogin{
+  display: none;
+}
+
+.btn-RescreateAcc{
+  display: none;
+}
+
+.content {
+  font-size: 6vw;
+  font-weight: 800;
+  letter-spacing: 6px;
+  line-height: 1.18;
+  word-spacing: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: 8rem;
+  font-family: 'Noto Serif', serif;
+  
+} 
+
+.createAccDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-createAcc {
+  background-color: #fd5068;
+  border-radius: 50px;
+  border: none;
+  font-size: 1vw;
+  font-weight: 600;
+  padding: 8px;
+  color: #fff;
+  width: 16vw;
+  height: 8vh;
+  margin: auto;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.btn-createAcc:hover {
+  background-image: radial-gradient(#ff00cc, #333399);
+  border: 2px solid #fff; 
+}
+
+#createID {
+  background-color: #f0c14b;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+/* navbar */
+.navbar {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 1;
+}
+
+.navbar-brand img {
+  
+  position: absolute;
+  top: 0 !important;
+  left: 1rem;
+  width: 11vw !important;
+  height: auto;
+} 
+.navbar-nav {
+  float: right;
+  margin-left: 64rem;
+  cursor: pointer;
+}
+
+.nav-item h3 {
+  
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: #333;
+}
+/* Account create Form */
+
+.createAccForm, .signinAccForm{
+  background-image: url("./Images/imgLog.jpg");
+  background-attachment: fixed;
+  border-radius: 4px;
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: .5rem;
+  filter: drop-shadow(4px 4px 4px #363636);
+}
+
+.formH3 {
+  color: #fff;
+  font-size: 2.5vw;
+  font-weight: 500;
+  position: relative;
+  left: 4vw;
+}
+.createAccForm label {
+  color: #fff;
+  font-size: 1.5vw;
+  font-weight: 400;
+  position: relative;
+  left: 4vw;
+}
+.createAccForm input {
+  position: relative;
+  left: 4vw;
+  width: 30vw;
+  height: 4.5vh;
+  border-radius: 4px;
+  border: none;
+}
+.hr_Div {
+  background-color: #fff;
+  width: 40vw;
+  height: 2px;
+  position: relative; 
+  top: 4vw;
+}
+.createAccForm p {
+  color: #fff;
+  font-size: 1.2vw;
+  position: relative;
+  top: 4vw;
+  left: 4vw;
+}
+.NavcreateSignin {
+  color: #fed049;
+  font-size: 1.2vw;
+}
+.NavcreateSignin:hover {
+  color: #faf3e0;
+}
+
+.input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2vw;
+}
+
+/* signinAccForm */
+
+#signinIDH3{
+  top: -4rem;
+}
+
+.signinAccForm  label {
+  color: #fff;
+  font-size: 1.5vw;
+  font-weight: 400;
+  position: relative;
+  top: -3rem;
+  left: 4vw;
+}
+
+.signinAccForm input {
+  position: relative;
+  top: -3rem;
+  left: 4vw;
+  width: 30vw;
+  height: 4.5vh;
+  border-radius: 4px;
+  border: none;
+}
+.inputbtnSignin {
+  background-color: #f0c14b;
+  font-family: 'Montserrat';
+  font-size:1.2vw;
+  font-weight: 500;
+  position: relative;
+  top: -2rem !important;
+}
+.paraSignin{
+  color: #fff;
+  font-size: 1.2vw;
+  position: relative;
+  top: 6vw;
+  text-align: center;
+}
+
+.NavcreateAcc {
+  position: relative;
+  top: 9vw;
+}
+
+/* Locker */
+
+.upper_locker_div {
+  background: url('./Images/cover.jpg');
+  background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
+  max-height: auto;
+}
+
+.headerLocker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 6rem;
+}
+
+.selectImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(1px 1px 1px #fff);
+}
+
+#file[type="file"] {
+  display: none;
+}
+.label {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  background: #2a3eb1;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.result {
+  min-width: 100%;
+  min-height: auto;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.resultImage {
+  width: 30vw;
+  height: 50vh;
+  object-fit: contain;
+  padding: 1rem;
+  border-radius: 2px;
+  margin-left: 1rem;
+  filter: drop-shadow(2px 2px 2px #fff);
+
+}
+.resultImage:hover {
+  opacity: 0.6;
+  width: 32vw;
+  cursor: pointer;
+}
+
+/* Error Page */
+.error_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+.error_text h2 {
+  font-weight: 800;
+}
+
+.error_text p {
+  font-weight: 600;
+}
+.showError {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error_photo {
+  width: 55%;
+  height: auto;
+  position: relative;
+  top: 1rem;
+  border-radius: 4px;
+  filter: drop-shadow(4px 4px 4px #333);
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform:  translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Footer */
+
+.footer_Main {
+  background-color: #fff;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(4px 4px 4px #363636);
+}
+.footerMe {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footerMe h5 {
+  font-size: 2rem;
+  font-family: 'Caveat', cursive;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+.heart_Footer {
+  color: #fd5068;
+}
+#insta {
+  color: #8a3ab9;
+}
+#linked {
+color: #0077b5;
+}
+#tweet {
+  color: #1DA1F2;
+}
+
+.footer_UL {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.footer_LI{
+  width: 10%;
+  list-style-type: none;
+} 
+.iconFoot {
+  font-weight: 600;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+/* media Queries */
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+
+  .navbar-toggler{
+    position: absolute;
+    right: 0;
+    top: 1.5vw;
+    right: 1rem;
+    color: #fff !important;
+  }
+  .navbar-nav {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: auto;    
+  }
+  .nav-item h3 {
+  
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2px;
+    color: #333;
+    margin-top: 1rem;
+  }
+  .nav-item .iconUser {
+    display: none;
+  }
+  #userID {
+    position: relative;
+    top: 1rem;
+  }
+
+.btn-login {
+    display: none;
+  }
+
+  .btn-ResLogin, .btn-createAcc {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  font-size: 5vw;
+  font-weight: 600;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 70vw;
+  height: 8vh;
+  margin: auto;
+  margin-top: 4rem;
+  text-transform: uppercase;
+  }
+  
+  .btn-createAcc {
+    background-color: #fff;
+    color: #333;
+    
+  }
+  .btn-ResLogin {
+    margin-top: 1rem !important;
+  }
+  
+.first-col {
+  background-color: #fff;
+  width: 100%;
+  height: 8vh;
+}
+.navbar-brand img {
+  width: 28% !important;
+  height: 2.7rem;
+  top: .5rem !important;
+  left: 1.5rem !important;
+}
+
+.navbar-brand {
+  width: 100%;
+  height: 2.5rem;
+}
+
+.content {
+    font-size: 8vw;
+    font-weight: 800;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 10rem;
+    font-family: 'Orelega One', cursive;
+    font-family: 'Noto Serif', serif;
+}
+
+  /* Account create Form */
+
+.createAccForm, .signinAccForm{
+  border-radius: 2px;
+  width: 65vw;
+  height: 55vh;
+  margin-top: 4rem;
+}
+
+.formH3 {
+  font-size: 4vw;
+  margin-bottom: 1rem;
+}
+.createAccForm label {
+  font-size: 3vw;
+}
+.createAccForm input {
+  width: 50vw;
+  height: 3vh;
+  font-size: .8rem;
+  border-radius: 2px;
+}
+.createAccForm p {
+  font-size: 4vw;
+}
+.NavcreateSignin {
+  font-size: 4vw;
+}
+.hr_Div {
+  width: 60vw !important;
+}
+.input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4vw;
+}
+
+/* signinAccForm */
+
+.signinAccForm  label {
+  font-size: 3vw;
+  position: relative;
+  top: -1rem;
+}
+
+.signinAccForm input {
+  width: 50vw;
+  height: 5vh;
+  border-radius: 2px;
+  position: relative;
+  top: -1rem;
+}
+.inputbtnSignin {
+  font-size: 3vw;
+  font-weight: 500;
+  position: relative;
+  top: -1rem !important;
+}
+.paraSignin{
+  color: #fff;
+  font-size: 3vw;
+  position: relative;
+  top: 8vw;
+}
+
+.NavcreateAcc {
+  position: relative;
+  top: 18vw;
+  font-size: 3vw;
+}
+#signinIDH3{
+  position: relative;
+  top: -1rem !important;
+  font-size: 5vw !important;
+} 
+.inputcreateAcc_btn {
+  position: relative;
+  top: -3.5rem !important;
+  }
+
+.logo_Nav img {
+  margin-top: 0;
+}
+
+/* Locker */
+
+.headerLocker h1 {
+  margin-top: 1rem;
+  font-size: 3.2vw !important;
+  font-weight: 500;
+  line-height: 3.2px;
+}
+
+.result {
+  min-width: 100%;
+  min-height: auto;
+  width: 100%;
+  margin-top: 1rem;
+  margin-left: 8px;
+}
+
+.resultImage {
+  width: 70vw;
+  height: 40vh;
+  object-fit: contain;
+  padding: 1rem;
+  border-radius: 2px;
+  filter: drop-shadow(2px 2px 2px #fff);
+
+  } 
+
+  /* Error Page */
+.error_text{
+  margin-top: 3rem !important;
+}
+#errorH2 {
+  font-size: 2.4rem;
+}
+#error_para {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.error_photo {
+  width: 95%;
+ 
+}
+
+/* Footer */
+
+.footer_Main {
+  display: none;
+}
+
+} 
+
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+
+  .navbar-toggler{
+    position: absolute;
+    right: 0;
+    top: 1.5vw;
+    right: 1rem;
+    color: #fff !important;
+  }
+  .navbar-nav {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: auto;    
+  }
+  .nav-item h3 {
+  
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2px;
+    color: #333;
+    margin-top: 1rem;
+  }
+  .nav-item .iconUser {
+    display: none;
+  }
+  #userID {
+    position: relative;
+    top: 1rem;
+  }
+  .btn-login {
+    display: none;
+  }
+
+  .btn-ResLogin, .btn-createAcc {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  font-size: 5vw;
+  font-weight: 600;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 70vw;
+  height: 8vh;
+  margin: auto;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  }
+
+  .btn-createAcc {
+    background-color: #fff;
+    color: #333;
+    
+  }
+  .btn-ResLogin {
+    margin-top: 1rem !important;
+  }
+  
+.first-col {
+  background-color: #fff;
+  width: 100%;
+  height: 8vh;
+}
+.navbar-brand img {
+  width: 30% !important;
+  height: 2.2 rem;
+  top: .5rem !important;
+  left: 1.5rem !important;
+}
+
+.navbar-brand {
+  width: 100%;
+  height: 2.5rem;
+}
+
+
+.content {
+  font-size: 6.5vw;
+  font-weight: 900;
+  letter-spacing: 2px;
+  word-spacing: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: 10rem;
+  font-family: 'Orelega One', cursive;
+  font-family: 'Noto Serif', serif;
+} 
+
+ /* Account create Form */
+
+ .createAccForm, .signinAccForm{
+  border-radius: 2px;
+  width: 65vw;
+  height: 55vh;
+  margin-top: 4rem;
+}
+
+.formH3 {
+  font-size: 5vw;
+  margin-bottom: 1rem;
+}
+.createAccForm label {
+  font-size: 3.5vw;
+}
+.createAccForm input {
+  width: 50vw;
+  height: 3vh;
+  font-size: .7rem;
+  border-radius: 2px;
+}
+.createAccForm p {
+  font-size: 3.5vw;
+}
+.NavcreateSignin {
+  font-size: 4vw;
+}
+.hr_Div {
+  width: 65vw !important;
+}
+.input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3vw;
+}
+
+/* signinAccForm */
+
+.signinAccForm  label {
+  font-size: 4vw;
+  position: relative;
+  top: -1rem;
+}
+
+.signinAccForm input {
+  width: 50vw;
+  height: 5vh;
+  border-radius: 2px;
+  position: relative;
+  top: -1rem;
+}
+.inputbtnSignin {
+  font-size: 3vw;
+  font-weight: 500;
+  position: relative;
+  top: -1rem !important;
+}
+.paraSignin{
+  color: #fff;
+  font-size: 4vw;
+  position: relative;
+  top: 8vw;
+}
+
+.NavcreateAcc {
+  position: relative;
+  top: 20vw;
+  left: 1rem;
+  font-size: 3vw;
+}
+#signinIDH3{
+  position: relative;
+  top: -1rem !important;
+  font-size: 5vw !important;
+} 
+.inputcreateAcc_btn {
+  position: relative;
+  top: -3.5rem !important;
+  }
+
+.logo_Nav img {
+  margin-top: 0;
+}
+
+/* Locker */
+
+.headerLocker h1 {
+  margin-top: 1rem;
+  font-size: 3.3vw !important;
+  font-weight: 500;
+  line-height: 3.3px;
+}
+
+.result {
+  min-width: 100%;
+  min-height: auto;
+  width: 100%;
+  margin-top: 0;
+  margin-left: 8px;
+}
+
+.resultImage {
+  width: 80vw;
+  height: 40vh;
+  object-fit: contain;
+  padding: .5rem;
+  border-radius: 2px;
+  filter: drop-shadow(2px 2px 2px #fff);
+
+  } 
+ /* Error Page */
+ .error_text{
+  margin-top: 5rem;
+}
+#errorH2 {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: center;
+  font-size: 2.2rem;
+}
+#error_para {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 1rem;
+}
+
+.error_photo {
+  width: 88%;
+} 
+
+/* Footer */
+
+.footer_Main {
+  display: none;
+}
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+
+  .navbar-toggler{
+    position: absolute;
+    right: 0;
+    top: 1.5vw;
+    right: 1rem;
+    color: #fff !important;
+  }
+  .navbar-nav {
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: auto;    
+  }
+  .nav-item h3 {
+  
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2px;
+    color: #333;
+    margin-top: 1rem;
+  }
+  .nav-item .iconUser {
+    display: none;
+  }
+  #userID {
+    position: relative;
+    top: 1rem;
+  }
+  .btn-login {
+    display: none;
+  }
+
+  .btn-ResLogin, .btn-createAcc {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  font-size: 4vw;
+  font-weight: 600;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  width: 50vw;
+  height: 6vh;
+  margin: auto;
+  margin-top: 3rem;
+  text-transform: uppercase;
+  }
+
+  .btn-createAcc {
+    background-color: #fff;
+    color: #333;
+    
+  }
+  .btn-ResLogin {
+    margin-top: 2rem !important;
+  }
+  
+.first-col {
+  background-color: #fff;
+  width: 100%;
+  height: 5vh;
+}
+.navbar-brand img {
+  width: 25% !important;
+  height: 2 rem;
+  left: 1.5rem !important;
+}
+
+.navbar-brand {
+  width: 100%;
+  height: 2.5rem;
+}
+
+
+.content {
+  font-size: 6.7vw;
+  font-weight: 900;
+  letter-spacing: 2px;
+  word-spacing: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: 10rem;
+  font-family: 'Orelega One', cursive;
+  font-family: 'Noto Serif', serif;
+} 
+
+ /* Account create Form */
+
+ .createAccForm, .signinAccForm{
+  border-radius: 2px;
+  width: 60vw;
+  height: 50vh;
+  margin-top: 8rem;
+}
+
+.formH3 {
+  font-size: 4vw;
+  margin-bottom: 1rem;
+}
+.createAccForm label {
+  font-size: 3vw;
+}
+.createAccForm input {
+  width: 45vw;
+  height: 3vh;
+  font-size: .8rem;
+  border-radius: 2px;
+}
+.createAccForm p {
+  font-size: 2.5vw;
+}
+.NavcreateSignin {
+  font-size: 2.5vw;
+}
+.hr_Div {
+  width: 60vw !important;
+}
+.input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3vw;
+}
+
+/* signinAccForm */
+
+.signinAccForm  label {
+  font-size: 4vw;
+  position: relative;
+  top: -1rem;
+}
+
+.signinAccForm input {
+  width: 50vw;
+  height: 5vh;
+  border-radius: 2px;
+  position: relative;
+  top: -1rem;
+}
+.inputbtnSignin {
+  font-size: 3vw;
+  font-weight: 500;
+  position: relative;
+  top: -1rem !important;
+}
+.paraSignin{
+  color: #fff;
+  font-size: 2.5vw;
+  position: relative;
+  top: 4vw;
+}
+
+.NavcreateAcc {
+  position: relative;
+  top: 10vw;
+  left: 1rem;
+  font-size: 2.5vw;
+}
+#signinIDH3{
+  position: relative;
+  top: -1rem !important;
+  font-size: 5vw !important;
+} 
+.inputcreateAcc_btn {
+  position: relative;
+  top: -3.5rem !important;
+  }
+
+.logo_Nav img {
+  margin-top: 0;
+}
+
+/* Locker */
+
+.headerLocker h1 {
+  margin-top: 1rem;
+  font-size: 2.5vw !important;
+  font-weight: 500;
+}
+
+.result {
+  min-width: 100%;
+  min-height: auto;
+  width: 100%;
+  margin-top: 0;
+}
+
+.resultImage {
+  width: 40vw;
+  height: 40vh;
+  object-fit: contain;
+  border-radius: 2px;
+  filter: drop-shadow(2px 2px 2px #fff);
+
+  } 
+ /* Error Page */
+ .error_text{
+  margin-top: 10rem;
+}
+#errorH2 {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: center;
+  font-size: 2.2rem;
+}
+#error_para {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.error_photo {
+  width: 88%;
+ 
+}
+/* Footer */
+
+.footer_Main {
+  display: none;
+} 
+
+}

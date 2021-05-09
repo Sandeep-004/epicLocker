@@ -1,0 +1,21 @@
+  #  POST  http://localhost:5000/createAcc
+  #  Content-Type: application/json
+
+  #  {
+  #      "name": "Mukesh1 Verma", 
+  #      "email": "mukesh1@gmail.com",
+  #      "password": "mukesh1", 
+  #      "cpassword": "mukesh"
+  #  }
+
+//signin
+
+   POST  http://localhost:5000/signin
+   Content-Type: application/json
+
+   {
+    
+       "email": "mukesh@gmail.com",
+       "password": "mukesh"
+    
+   }
